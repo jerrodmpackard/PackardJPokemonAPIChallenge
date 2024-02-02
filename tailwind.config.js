@@ -8,7 +8,11 @@ module.exports = {
     "./node_modules/flowbite/**/*.js"
 ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'background' : "url('../assets/PokemonWildAreaNight.jpg')"
+      }
+    },
   },
   plugins: [
     require('flowbite/plugin')
